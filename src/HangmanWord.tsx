@@ -30,7 +30,7 @@ export function HangmanWord({
                   ? "visible"
                   : "hidden",
               color:
-                !guessedLetters.includes(letter) && reveal ? "red" : "black",
+                !guessedLetters.includes(letter) && !reveal ? "black" : "red",
             }}
           >
             {letter}
