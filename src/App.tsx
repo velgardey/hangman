@@ -74,7 +74,7 @@ function App() {
             alignItems: "center",
           }}
       >
-        <div style={{ fontSize: "2rem", textAlign: "center" }}>
+        <div style={{ fontSize: "4rem",color: '#dbdfac', textAlign: "center" }}>
           {isWinner && "YOU WIN !"}
           {isLoser && "LOL !"}
         </div>
